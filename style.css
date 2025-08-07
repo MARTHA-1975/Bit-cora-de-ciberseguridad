@@ -1,44 +1,59 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Bitácora de Ciberseguridad</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+body {
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+}
 
-<section id="bitacora">
-  <h2>🧭 Bitácora de Ciberseguridad</h2>
-  <p><em>Explorando, aprendiendo y documentando cada paso del camino.</em></p>
+#bitacora {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem auto;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
 
-  <div class="entry">
-    <h3>🔍 Suricata: Detectando tráfico en tiempo real</h3>
-    <ul>
-      <li><strong>Configuración inicial:</strong> Instalación en Ubuntu con resolución de conflictos de reglas.</li>
-      <li><strong>Primera regla personalizada:</strong> <code>alert tcp any any -> any 80 (msg:"Tráfico HTTP detectado"; sid:1000001; rev:1;)</code></li>
-      <li><strong>Simulación con Nmap:</strong> Escaneos para validar alertas.</li>
-      <li><strong>Documentación:</strong> Registro detallado del proceso.</li>
-    </ul>
-  </div>
+#bitacora h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
 
-  <div class="entry">
-    <h3>📊 Microsoft Clarity: Entendiendo a los visitantes</h3>
-    <ul>
-      <li><strong>Integración:</strong> Script añadido para analizar comportamiento.</li>
-      <li><strong>Hallazgos:</strong> Identificación de secciones más visitadas.</li>
-      <li><strong>Próximos pasos:</strong> Mejoras en accesibilidad y navegación.</li>
-    </ul>
-  </div>
+#bitacora p {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
 
-  <div class="entry">
-    <h3>🔐 Verificador de contraseñas: Educación práctica</h3>
-    <ul>
-      <li><strong>Desarrollo:</strong> App en Python que evalúa contraseñas.</li>
-      <li><strong>Interfaz:</strong> Ventana intuitiva con Tkinter.</li>
-      <li><strong>Objetivo:</strong> Promover buenas prácticas de seguridad.</li>
-    </ul>
-  </div>
-</section>
+.entry {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #fdfdfd;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-</body>
-</html>
+.entry:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.entry h3 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.entry ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.entry li {
+  margin-bottom: 0.5rem;
+}
+
+code {
+  background-color: #eee;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: monospace;
+}
