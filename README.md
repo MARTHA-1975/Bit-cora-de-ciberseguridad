@@ -11,6 +11,27 @@ Documentación paso a paso de mi aprendizaje técnico:
 - Configuración de Suricata y detección de tráfico
 - Integración de Microsoft Clarity para análisis de comportamiento
 - Desarrollo de herramientas educativas como el verificador de contraseñas
+- ## 🧭 Reflexión personal
+
+---
+
+## 📒 Bitácora técnica — Reflexión sobre el proyecto
+
+Este proyecto me permitió comprender mejor cómo se estructura un juego en la web. Aprendí a usar el elemento `<canvas>`, a manejar eventos del mouse (`mousemove`) y a implementar una IA básica que responde al movimiento de la pelota.
+
+Uno de los mayores retos fue coordinar los botones de **inicio**, **pausa** y **dificultad** con el flujo del juego. Tuve que pensar en estados como `paused` y `running`, y cómo evitar que la IA se moviera cuando el juego estaba detenido. Documentar cada paso me ayudó a identificar errores y mejorar la lógica.
+
+Este juego representa un paso más en mi transición hacia la ciberseguridad, donde entender la lógica, el comportamiento de sistemas y la interacción con el usuario es clave. Me motiva ver cómo algo tan simple puede enseñar tanto, y cómo compartirlo puede inspirar a otros que están empezando.
+
+**Aprendizajes destacados:**
+- Control de flujo con estados (`paused`, `running`)
+- Eventos del DOM (`click`, `mousemove`)
+- IA reactiva y dificultad ajustable
+- Importancia de documentar y reflexionar
+
+Este proyecto es parte de mi compromiso por aprender de forma autodidacta, documentar el proceso y crear recursos accesibles para otros.
+- **Juego Pong Sencillo**: Aprender estructura un juego en la web
+  [🔗 Ver proyecto](https://github.com/MARTHA-1975/juego_de_pong_sencillo)
 
 ### 🛠️ Proyectos destacados
 - **EmpleoJusto-AI**: Plataforma para democratizar el acceso al empleo  
